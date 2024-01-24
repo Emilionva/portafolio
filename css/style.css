@@ -1,0 +1,69 @@
+/*paleta de colores*/
+/* 0D0A0B night, 454955 charcoal, F3EFF5 magnolia, A5CC6D pistachio, 3F7D20 office green*/
+/*font: Poppins regular 400*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
+/*------------------------------------------------------------------------*/
+/*Selector universal reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*html universal*/
+html{
+    font-size: 100%;
+    background-color:whitesmoke;
+}
+/*Fonts color*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*------------------------------------------------------------------------*/
+/*Header*/
+
+.un_poco_p{
+    text-align: center;
+    background-color: bisque;
+    height: 7rem;
+}
+header{
+    background-color: #A5CC6D ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+}
+ul{
+    margin: 0%;
+}
+li{
+    list-style: none;
+    display: inline;
+    margin-right: 0.9rem;
+}
+header>img{
+    width: 80px;
+}
+header a{
+    color: black;
+    text-decoration: none; 
+}
+/*--------------------------------------------------------------------------*/
+/*Main*/
+.un_poco_p{
+    display: flex;
+    align-items: center;
+}
+h1{
+    text-align:center;
+    font-size: 3rem;
+}
+h2{
+    text-align:center;
+}
+/*--------------------------------------------------------------------------*/
+/*Footer*/
+footer{
+    background-color:dodgerblue;
+}
