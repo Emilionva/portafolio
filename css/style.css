@@ -12,7 +12,7 @@
 /*html universal*/
 html{
     font-size: 100%;
-    background-color:whitesmoke;
+    background-color:white;
 }
 /*Fonts color*/
 body{
@@ -48,6 +48,15 @@ header>img{
 header a{
     color: black;
     text-decoration: none; 
+}
+.tituloindex{
+    text-align: center;
+    background-image: url(../medios/backgroun1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 220px 0px;
+    text-shadow: 1px -1px 25px rgb(0, 0, 0);
+    color: #FFFFFF;
 }
 /*--------------------------------------------------------------------------*/
 /*Main*/
