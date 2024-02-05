@@ -71,6 +71,45 @@ h1{
 h2{
     text-align:center;
 }
+.codigoimg{
+    width: 80%;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*sobremi*/
+.grid1{
+    display: flex;
+}
+.gridtxt{
+    text-align:justify ;
+    padding: 2%;
+}
+.gridimg{
+    width: 20%;
+}
+.uamflex{
+    display: flex;
+}
+.uamtxt{
+    padding: 3%;
+}
+.uamimg{
+    width: 20%;
+}
+/*Contacto*/
+.button{
+    width: 70px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    color:#000000;
+    font-weight: 600;
+    text-transform: uppercase;
+}
 /*--------------------------------------------------------------------------*/
 /*Footer*/
 footer{
