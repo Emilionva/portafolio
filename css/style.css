@@ -20,7 +20,12 @@ body{
 }
 /*------------------------------------------------------------------------*/
 /*Header*/
-
+.logo_paginaprin{
+    width: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
 .un_poco_p{
     text-align: center;
     background-color: bisque;
